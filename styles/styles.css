@@ -55,6 +55,13 @@ img {
 .container-xl {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 1200px) {
+  .container-xl {
+    padding: 0;
+  }
 }
 
 .col-2 {
@@ -215,6 +222,7 @@ img {
   background-color: #fff;
   padding: 25px;
   border-radius: 5px;
+  max-width: 90%;
 }
 
 .logo {
