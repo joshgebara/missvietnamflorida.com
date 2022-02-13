@@ -29,6 +29,9 @@
 /* ==========================================================================
    General Styles
    ========================================================================== */
+* {
+    box-sizing: border-box;
+}
 
 body {
   font-family: MaisonNeue;
@@ -105,6 +108,23 @@ img {
   padding: 20px 50px;
 }
 
+.background-pink {
+  background-color: #f4d9d5;
+}
+
+/* ==========================================================================
+   About Us
+   ========================================================================== */
+
+.about-us-body-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 15px;
+  padding-right: 75px;
+  color: #222;
+}
+
 /* ==========================================================================
    Sponsors
    ========================================================================== */
@@ -122,12 +142,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border: 1px solid #e6e6e6;
-  padding: 25px;
+  padding: 35px;
 }
 
-.background-pink {
-  background-color: #f4d9d5;
+.sponsor-body-text {
+  font-size: 22px;
+  font-weight: 300;
+  margin: 15px 20px 30px 20px;
 }
