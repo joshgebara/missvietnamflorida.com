@@ -1,3 +1,65 @@
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+
+/* @font-face {
+  font-family: MaisonNeue;
+  font-style: bold;
+  font-weight: 600;
+  font-display: auto;
+  src: url(../fonts/MaisonNeue-Book.woff);
+}
+
+@font-face {
+  font-family: MaisonNeue;
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url(../fonts/MaisonNeue-Book.woff);
+} */
+/* @font-face {
+  font-family: Janson;
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url(../fonts/MaisonNeue-Book.woff);
+}
+
+@font-face {
+  font-family: Janson;
+  font-style: normal;
+  font-weight: 600;
+  font-display: auto;
+  src: url(../fonts/janson.woff);
+} */
+
+@font-face {
+  font-family: Janson;
+  src: url(../fonts/janson.woff) format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: MaisonNeue;
+  src: url(../fonts/MaisonNeue-Demi.woff) format("woff");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: MaisonNeue;
+  src: url(../fonts/MaisonNeue-Book.woff) format("woff");
+  font-weight: 400;
+}
+
+/* ==========================================================================
+   General Styles
+   ========================================================================== */
+
+body {
+  font-family: MaisonNeue;
+  font-weight: 400;
+}
+
 img {
   width: 100%;
 }
@@ -15,6 +77,16 @@ img {
 .col {
   width: 50%;
 }
+
+.title {
+  font-family: Janson, serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+/* ==========================================================================
+   Sponsors
+   ========================================================================== */
 
 .sponsors {
   display: flex;
