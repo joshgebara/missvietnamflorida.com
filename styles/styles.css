@@ -30,7 +30,7 @@
    General Styles
    ========================================================================== */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -42,6 +42,10 @@ body {
 img {
   width: 100%;
   border-radius: 2px;
+}
+
+.img-shadow-pink {
+  box-shadow: 10px 10px #f4d9d5;
 }
 
 .container-xl {
@@ -110,6 +114,54 @@ img {
 
 .background-pink {
   background-color: #f4d9d5;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e6e6e6;
+  width: 100%;
+}
+
+.container-xl.divider-container {
+  padding: 25px 0;
+}
+
+.spacer-bottom {
+  margin-bottom: 175px;
+}
+
+.blackbar {
+  background-color: #222;
+  height: 15px;
+  width: 100%;
+}
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/thomas-thompson-8VEQTjRIUY0-unsplash.jpg");
+  background-position: 75% 31%;
+  width: 100%;
+  height: calc(100vh - 68px);
+}
+
+.hero-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.logo {
+  width: 500px;
 }
 
 /* ==========================================================================
