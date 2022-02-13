@@ -1,0 +1,8 @@
+.col-2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  width: 50%;
+}
