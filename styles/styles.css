@@ -70,6 +70,11 @@ img {
   align-items: center;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 900px) {
   .col-2 {
     flex-direction: row;
@@ -151,6 +156,7 @@ img {
   border: 1px solid #222;
   cursor: pointer;
   padding: 15px 45px;
+  display: inline-block;
 }
 
 @media (min-width: 670px) {
@@ -255,6 +261,8 @@ img {
 .royal-court-description {
   margin-top: 25px;
   line-height: 20px;
+  font-size: 14px;
+  color: #757575;
 }
 
 /* ==========================================================================
