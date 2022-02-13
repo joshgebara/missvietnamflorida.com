@@ -34,9 +34,13 @@
 }
 
 body {
-  font-family: MaisonNeue;
+  font-family: MaisonNeue, sans-serif;
   font-weight: 400;
   color: #222;
+}
+
+section {
+  width: 100%;
 }
 
 img {
@@ -91,13 +95,20 @@ img {
 .title-xl {
   font-family: MaisonNeue, sans-serif;
   font-weight: 300;
-  font-size: 55px;
+  font-size: 42px;
   margin-bottom: 15px;
   text-align: center;
   padding: 20px;
-  line-height: 64px;
+  line-height: 50px;
   border-radius: 2px;
   display: inline-block;
+}
+
+@media (min-width: 670px) {
+  .title-xl {
+    font-size: 55px;
+    line-height: 64px;
+  }
 }
 
 .spacer-vertical {
