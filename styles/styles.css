@@ -2,37 +2,6 @@
    Fonts
    ========================================================================== */
 
-/* @font-face {
-  font-family: MaisonNeue;
-  font-style: bold;
-  font-weight: 600;
-  font-display: auto;
-  src: url(../fonts/MaisonNeue-Book.woff);
-}
-
-@font-face {
-  font-family: MaisonNeue;
-  font-style: normal;
-  font-weight: 400;
-  font-display: auto;
-  src: url(../fonts/MaisonNeue-Book.woff);
-} */
-/* @font-face {
-  font-family: Janson;
-  font-style: normal;
-  font-weight: 400;
-  font-display: auto;
-  src: url(../fonts/MaisonNeue-Book.woff);
-}
-
-@font-face {
-  font-family: Janson;
-  font-style: normal;
-  font-weight: 600;
-  font-display: auto;
-  src: url(../fonts/janson.woff);
-} */
-
 @font-face {
   font-family: Janson;
   src: url(../fonts/janson.woff) format("woff");
@@ -62,6 +31,7 @@ body {
 
 img {
   width: 100%;
+  border-radius: 2px;
 }
 
 .container-xl {
@@ -78,10 +48,25 @@ img {
   width: 50%;
 }
 
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .title {
   font-family: Janson, serif;
   font-weight: 400;
   font-size: 32px;
+  margin-bottom: 15px;
+  border: 1px solid #e6e6e6;
+  padding: 20px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.spacer-vertical {
+  margin: 35px auto;
 }
 
 /* ==========================================================================
