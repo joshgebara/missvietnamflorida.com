@@ -20,6 +20,12 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: MaisonNeue;
+  src: url(../fonts/MaisonNeue-Light.woff) format("woff");
+  font-weight: 300;
+}
+
 /* ==========================================================================
    General Styles
    ========================================================================== */
@@ -27,6 +33,7 @@
 body {
   font-family: MaisonNeue;
   font-weight: 400;
+  color: #222;
 }
 
 img {
@@ -65,8 +72,37 @@ img {
   display: inline-block;
 }
 
+.title-xl {
+  font-family: MaisonNeue, sans-serif;
+  font-weight: 300;
+  font-size: 55px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 20px;
+  line-height: 64px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
 .spacer-vertical {
-  margin: 35px auto;
+  margin: 100px auto;
+}
+
+.padding-vertical {
+  padding: 100px 0;
+}
+
+.button {
+  font-family: MaisonNeue, sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #222;
+  border-radius: 2px;
+  border: 1px solid #222;
+  cursor: pointer;
+  padding: 20px 50px;
 }
 
 /* ==========================================================================
@@ -77,8 +113,21 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sponsor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 200px;
+  height: 200px;
+  border: 1px solid #e6e6e6;
+  padding: 25px;
+}
+
+.background-pink {
+  background-color: #f4d9d5;
 }
