@@ -62,6 +62,15 @@ img {
   width: 50%;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row .button {
+  margin: 0 10px;
+}
+
 .center {
   display: flex;
   flex-direction: column;
@@ -112,6 +121,23 @@ img {
   padding: 20px 50px;
 }
 
+.button-secondary {
+  font-family: MaisonNeue, sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  text-decoration: none;
+  color: #222;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #222;
+  cursor: pointer;
+  padding: 20px 50px;
+}
+
+.button-spacer {
+  margin-top: 35px;
+}
+
 .background-pink {
   background-color: #f4d9d5;
 }
@@ -147,7 +173,7 @@ img {
   background-image: url("../img/thomas-thompson-8VEQTjRIUY0-unsplash.jpg");
   background-position: 75% 31%;
   width: 100%;
-  height: calc(100vh - 68px);
+  height: calc(100vh - 15px);
 }
 
 .hero-inner-container {
