@@ -106,7 +106,8 @@ img {
   font-weight: 400;
   font-size: 32px;
   margin-bottom: 15px;
-  border: 1px solid #e6e6e6;
+  background-color: #f4d9d5;
+  border-bottom: 2px solid #222;
   padding: 20px;
   border-radius: 2px;
   display: inline-block;
