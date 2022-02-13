@@ -122,14 +122,21 @@ img {
 .button {
   font-family: MaisonNeue, sans-serif;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
   color: #fff;
   background-color: #222;
   border-radius: 2px;
   border: 1px solid #222;
   cursor: pointer;
-  padding: 20px 50px;
+  padding: 15px 45px;
+}
+
+@media (min-width: 670px) {
+  .button {
+    font-size: 25px;
+    padding: 20px 50px;
+  }
 }
 
 .button-secondary {
